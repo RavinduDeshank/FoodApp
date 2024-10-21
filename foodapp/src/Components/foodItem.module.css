@@ -1,0 +1,43 @@
+.foodItemContainer {
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 7px 4px 6px rgb(0, 0, 0, 0.2);
+  margin: 20px;
+  overflow: hidden;
+  font-family: Polysans, sans-serif;
+}
+
+.foodItemTitle {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.foodItembtn {
+  margin: 10px;
+  background-color: rgb(50, 175, 106);
+  border: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  color: white;
+}
+
+.foodItemImg {
+  display: flex;
+  justify-content: center;
+}
+
+.foodItembtnCon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.foodItembtn:hover {
+  background-color: rgb(255, 238, 0);
+}
